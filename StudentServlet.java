@@ -20,7 +20,7 @@ public class StudentServlet extends HttpServlet
         try
         {
             Class.forName("com.mysql.cj.jdbc.Driver");
-            Connection conn=DriverManager.getConnection("jdbc:mysql://localhost:3306/Students","Atif","arpita");
+            Connection conn=DriverManager.getConnection("jdbc:mysql://localhost:3306/Students","Sayem","1234");
 
             if("Insert".equals(action))
             {
